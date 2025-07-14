@@ -52,7 +52,7 @@ Supported models:
 ## Usage
 
 1. Start ComfyUI.
-2. Add the YOLOv5-face detection node to your workflow.
+2. Add the Yolov5 Face Detect node to your workflow.
 3. Select one of the available models.
 4. Run the workflow to detect faces in your images.
 
