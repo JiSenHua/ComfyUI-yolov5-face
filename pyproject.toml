@@ -1,0 +1,14 @@
+[project]
+name = "ComfyUI-yolov5-face"
+description = "A YOLOv5 face detection project for ComfyUI."
+version = "0.0.1"
+license = {file = "LICENSE"}
+
+[project.urls]
+Repository = "https://github.com/JiSenHua/ComfyUI-yolov5-face"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "jisenhua"
+DisplayName = "ComfyUI-yolov5-face"
+Icon = ""
