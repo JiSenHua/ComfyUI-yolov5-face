@@ -1,5 +1,3 @@
-好的，下面是更新后的中英文 README 模板，已在“Usage/使用方法”部分添加了示例图片展示，图片路径为 `example/example.png`。
-
 ---
 
 ## English README
