@@ -1,3 +1,4 @@
+[🇺🇸 English Version](./README.md)
 # ComfyUI YOLOv5-Face 人脸检测自定义节点
 
 本项目为 [ComfyUI](https://github.com/comfyanonymous/ComfyUI) 提供了一个自定义节点，基于 [deepcam-cn/yolov5-face](https://github.com/deepcam-cn/yolov5-face) 项目实现图像的人脸检测。
