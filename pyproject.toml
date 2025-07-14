@@ -1,7 +1,7 @@
 [project]
 name = "ComfyUI-yolov5-face"
 description = "A YOLOv5 face detection project for ComfyUI."
-version = "0.0.2"
+version = "0.0.1"
 license = {file = "LICENSE"}
 
 [project.urls]
