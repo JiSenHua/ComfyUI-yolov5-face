@@ -1,3 +1,4 @@
+[🇨🇳 中文说明](./README.zh-CN.md)
 # ComfyUI YOLOv5-Face Detection Custom Node
 
 A custom node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) that enables face detection in images using models from [deepcam-cn/yolov5-face](https://github.com/deepcam-cn/yolov5-face).
