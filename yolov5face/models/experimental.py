@@ -3,9 +3,9 @@
 import numpy as np
 import torch
 import torch.nn as nn
+from pathlib import Path
 
 from yolov5face.models.common import Conv, DWConv
-from yolov5face.utils.google_utils import attempt_download
 
 
 class CrossConv(nn.Module):
@@ -114,7 +114,8 @@ def attempt_load(weights, map_location=None):
     # Loads an ensemble of models weights=[a,b,c] or a single model weights=[a] or weights=a
     model = Ensemble()
     for w in weights if isinstance(weights, list) else [weights]:
-        attempt_download(w)
+        if not Path(w).is_file():
+            raise FileNotFoundError(f'YOLOv5 face model not found: {w}')
         model.append(torch.load(w, map_location=map_location, weights_only=False)['model'].float().fuse().eval())  # load FP32 model
 
     # Compatibility updates
